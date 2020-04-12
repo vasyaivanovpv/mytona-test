@@ -1,30 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on ZEIT Now
-
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Сделать информационную книгу о локациях и персонажах Rick and Morty.
+● На главной странице отображать первые 20 локаций с бесконечным скроллом.
+● Каждая локация показывает предварительно по три резидента данной локации.
+● При скролле вниз дополнительные локации подгружаются автоматически.
+● При нажатии на локацию, открывается новая страница, в котором присутствует
+подробная информация о локации и список 20 первых резидентов.
+● Список резидентов тоже подгружается при скролле страницы вниз.
+● При нажатии на резидента открывается полная информация о персонаже.
+● Сайт должен поддерживать технологии SSR, для этого использовать NextJS;
+● Проверить SSR можно в командной строке командой curl;
+● Использовать демо сервер https://rickandmortyapi.com/graphql, технология связи
+GraphQL, мутации создавать не нужно, использовать только query запросы;
+● Все ссылки на сайте должны поддерживать технологию SSR, при нажатии, не должно
+обновляться страница браузера, но url в адресной строке браузера должно меняться.
